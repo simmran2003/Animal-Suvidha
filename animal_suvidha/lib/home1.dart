@@ -302,7 +302,15 @@ class _HomeState extends State<Home> {
                                   borderRadius: BorderRadius.circular(20),
                                 ),
                                 child: Center(
-                                  child: Text("Text 3"),
+                                  child: Text(
+                                    "Every day, countless animals suffer silently from injuries, accidents, and neglect. But in those moments of distress, there is also an opportunity for compassion and courage to shine through.",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                      fontSize: 20,
+                                      color: Colors.black,
+                                      fontFamily: GoogleFonts.lato().fontFamily,
+                                    ),
+                                  ),
                                 ),
                               ),
                             ],

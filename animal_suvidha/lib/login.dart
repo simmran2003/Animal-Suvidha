@@ -2,7 +2,7 @@
 
 import 'package:animal_suvidha/forgot_password.dart';
 import 'package:animal_suvidha/home1.dart';
-import 'package:animal_suvidha/service/auth.dart';
+//import 'package:animal_suvidha/service/auth.dart';
 import 'package:animal_suvidha/signup.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -186,7 +186,7 @@ class _LogInState extends State<LogIn> {
               children: [
                 GestureDetector(
                   onTap: () {
-                    AuthMethods().signInWithGoogle(context);
+                    //AuthMethods().signInWithGoogle(context);
                   },
                   child: Image.asset(
                     "assets/images/google.png",
@@ -200,7 +200,7 @@ class _LogInState extends State<LogIn> {
                 ),
                 GestureDetector(
                   onTap: () {
-                    AuthMethods().signInWithApple();
+                    //AuthMethods().signInWithApple();
                   },
                   child: Image.asset(
                     "assets/images/apple1.png",
