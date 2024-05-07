@@ -57,8 +57,9 @@ class _LogInState extends State<LogIn> {
           children: [
             Container(
                 width: MediaQuery.of(context).size.width,
+                height: 250,
                 child: Image.asset(
-                  "assets/images/car.PNG",
+                  "assets/images/Black and grey paw print pattern Art Print by gulsengunel.jpg",
                   fit: BoxFit.cover,
                 )),
             SizedBox(
@@ -139,7 +140,7 @@ class _LogInState extends State<LogIn> {
                           padding: EdgeInsets.symmetric(
                               vertical: 13.0, horizontal: 30.0),
                           decoration: BoxDecoration(
-                              color: Color(0xFF273671),
+                              color: Colors.orange,
                               borderRadius: BorderRadius.circular(30)),
                           child: Center(
                               child: Text(

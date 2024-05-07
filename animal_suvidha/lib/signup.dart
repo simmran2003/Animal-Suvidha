@@ -64,8 +64,9 @@ class _SignUpState extends State<SignUp> {
           children: [
             Container(
                 width: MediaQuery.of(context).size.width,
+                height: 200,
                 child: Image.asset(
-                  "assets/images/car.PNG",
+                  "assets/images/Black and grey paw print pattern Art Print by gulsengunel.jpg",
                   fit: BoxFit.cover,
                 )),
             SizedBox(
@@ -160,16 +161,16 @@ class _SignUpState extends State<SignUp> {
                             name = namecontroller.text;
                             password = passwordcontroller.text;
                           });
-                          registration();  // correct place of calling the function, working
+                          registration(); // correct place of calling the function, working
                         }
-                        registration();  // you are calling here outside of if
+                        registration(); // you are calling here outside of if
                       },
                       child: Container(
                           width: MediaQuery.of(context).size.width,
                           padding: EdgeInsets.symmetric(
                               vertical: 13.0, horizontal: 30.0),
                           decoration: BoxDecoration(
-                              color: Color(0xFF273671),
+                              color: Colors.orange,
                               borderRadius: BorderRadius.circular(30)),
                           child: Center(
                               child: Text(

@@ -1,4 +1,4 @@
-import 'package:animal_suvidha/sign_in_screen.dart';
+import 'package:animal_suvidha/login.dart';
 import 'package:flutter/material.dart';
 
 class Slider1 extends StatelessWidget {
@@ -67,7 +67,7 @@ class Slider1 extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => SignInScreen()),
+                    MaterialPageRoute(builder: (context) => LogIn()),
                   );
                 },
                 child: Row(

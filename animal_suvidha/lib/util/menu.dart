@@ -1,4 +1,4 @@
-import 'package:animal_suvidha/login.dart';
+import 'package:animal_suvidha/slider1.dart';
 import 'package:flutter/material.dart';
 import 'package:animal_suvidha/my_profile.dart';
 
@@ -14,7 +14,7 @@ class MenuItems extends StatelessWidget {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => LogIn()),
+              MaterialPageRoute(builder: (context) => Slider1()),
             );
           },
           child: Container(

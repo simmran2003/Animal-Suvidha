@@ -40,11 +40,9 @@ class MyApp extends StatelessWidget {
               if (snapshot.hasData) {
                 return Home();
               } else {
-                return LogIn();
+                return Slider1();
               }
             }),
-
-        //SignUpScreen(),
         routes: {
           '/home_page': (context) => HomePage(),
           '/donate': (context) => Donate(),
