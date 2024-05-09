@@ -49,6 +49,7 @@ dependencies:
   google_sign_in: ^6.1.6
   cloud_firestore: ^4.13.1
   the_apple_sign_in: ^1.1.1
+  url_launcher: ^6.1.5
 
   
 

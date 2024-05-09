@@ -1,4 +1,8 @@
+// ignore_for_file: unused_import
+
+import 'package:animal_suvidha/donate.dart';
 import 'package:animal_suvidha/my_profile.dart';
+import 'package:animal_suvidha/report_injury.dart';
 import 'package:animal_suvidha/util/pop_up.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
@@ -150,7 +154,8 @@ class _HomeState extends State<Home> {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => const MyPet()),
+                                      builder: (context) =>
+                                          const ReportInjury()),
                                 );
                               },
                               child: EmoticonFace(
@@ -183,7 +188,7 @@ class _HomeState extends State<Home> {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => const MyPet()),
+                                      builder: (context) => const Donate()),
                                 );
                               },
                               child: EmoticonFace(
