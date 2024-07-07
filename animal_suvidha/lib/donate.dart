@@ -45,7 +45,7 @@ class Donate extends StatelessWidget {
                   child: ElevatedButton(
                     onPressed: () {
                       launchUrl(
-                          Uri.parse('https://dynatons.com/animalsuvidha.html'));
+                          Uri.parse('animalsuvidha-donationpage.netlify.app'));
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.orange,
